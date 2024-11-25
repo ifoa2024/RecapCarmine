@@ -206,6 +206,7 @@ Creare delle card contenenti:
 - per visualizzare le bandiere bisogna inserire due classi come nell’esempio:
     - flag-icon: per dare la dimensione della bandiera
     - flag-icon-siglabandiera: per mostrare la bandiera del paese
+  
   ```
     <!DOCTYPE html>
     <html lang="en">
@@ -234,9 +235,7 @@ Creare delle card contenenti:
     </body>
     </html>
 ```
-
-- Siete liberi di creare il layout che piu’ vi piace.
-
+```
 
 ## Es - 10
 Dato un array di oggetti:
@@ -244,6 +243,7 @@ Dato un array di oggetti:
 - crea una funzione che restituisca dei link di navigazione.
     - Creare una navbar (siete liberi di creare il layout che piu’ vi piace)
     - Visualizzare nella navbar il nome, il percorso della pagina e l’icona del link presenti nell’array
+
 ```
     let list = [
         { id: 1, linkName: 'home', page: 'home.html', icon: 'bi bi-house-door'},
@@ -253,6 +253,7 @@ Dato un array di oggetti:
         { id: 5, linkName: 'blog', page: 'blog.html', icon: 'bi bi-newspaper'},
         { id: 6, linkName: 'contatti', page: 'contatti.html', icon: 'bi bi-send'}
     ]
+```
 ```
 
 - Suggerimento:
@@ -287,6 +288,7 @@ Dato un array di oggetti:
     let linkIcon = document.querySelector('i');
     // Inserisco l'attributo class con i valori per visualizzare l'icona
     linkIcon.setAttribute('class', 'bi bi-house-door');
+```
 ```
 
 ## Es - 11
@@ -333,7 +335,7 @@ Dato un array di oggetti:
     })
 ```
 
-## Es -12
+## Es - 12
 - Crea una piccola calcolatrice con le 4 operazioni di base:
     - due campi input per far inserire all’utente i numeri.
     - un campo select (oppure un altro modo) che permetta di selezionare il tipo di operazione
