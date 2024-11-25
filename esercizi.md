@@ -254,7 +254,6 @@ Dato un array di oggetti:
         { id: 6, linkName: 'contatti', page: 'contatti.html', icon: 'bi bi-send'}
     ]
 ```
-```
 
 - Suggerimento:
     - inserire il link della CDN Icons Bootstrap
@@ -279,16 +278,14 @@ Dato un array di oggetti:
         </a>    
     </body>
     </html>
-```
 
-```
+    
     // Nel file javascript
     
     // Catturo il tag i
     let linkIcon = document.querySelector('i');
     // Inserisco l'attributo class con i valori per visualizzare l'icona
     linkIcon.setAttribute('class', 'bi bi-house-door');
-```
 ```
 
 ## Es - 11
